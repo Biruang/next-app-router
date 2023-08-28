@@ -1,11 +1,31 @@
 {
   "name": "next-app-router",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple next.js template with app routing. Mainly for testing",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "",
-  "license": "ISC"
+  "browserslist": [
+    ">0.05%",
+    "not dead"
+  ],
+  "author": "Biruang",
+  "repository": "https://github.com/Biruang/next-app-router",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "prettier": "^3.0.2",
+    "typescript": "5.2.2"
+  }
 }
