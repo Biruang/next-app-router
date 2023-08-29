@@ -1,3 +1,4 @@
+import styles from './styles.module.scss';
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>
+  return <h1 className={styles.hello}>Hello, Next.js!</h1>
 }
