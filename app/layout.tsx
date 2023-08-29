@@ -1,9 +1,12 @@
-import React from 'react';
+import { ReactNode } from 'react';
+import { MainLayout } from 'shared/ui/MainLayout';
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <MainLayout>{children}</MainLayout>
+      </body>
     </html>
   );
 }

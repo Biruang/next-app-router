@@ -1,0 +1,24 @@
+@import "src/shared/css/breakpoints.scss";
+@import "src/shared/css/typography.scss";
+@import "src/shared/theme/index.scss";
+@import "normalize.css/normalize";
+
+:root{
+  --white: white;
+  --black: black;
+}
+
+body.theme-dark {
+  --white: black;
+  --black: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

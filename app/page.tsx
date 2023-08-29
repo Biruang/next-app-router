@@ -1,4 +1,5 @@
-import styles from './styles.module.scss';
-export default function Page() {
-  return <h1 className={styles.hello}>Hello, Next.js!</h1>
+import { Main } from 'pages/Main';
+import 'shared/theme/global.scss';
+export default function App() {
+  return <Main />;
 }
